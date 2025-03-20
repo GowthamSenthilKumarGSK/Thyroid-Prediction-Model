@@ -12,7 +12,6 @@ Thyroid disorders, especially hypothyroidism, are common conditions where the th
 - **ROC Curve & AUC Score**: The model's performance is evaluated using the ROC curve and the AUC score.
 - **Feature Importance**: The importance of different features in predicting thyroid disorders is determined.
 - **Visualization**: Various visualizations, including ROC curves and feature importance charts, are included for better understanding of the model and results.
-- **Streamlit Web Application**: A Streamlit-based web application is created to allow for easy user interaction, providing a UI to input data and get predictions.
 
 ## Project Structure
 
@@ -22,7 +21,6 @@ The project is organized into the following sections:
 2. **Model Training**: Training a logistic regression model using the preprocessed data.
 3. **Model Evaluation**: Evaluating the performance of the trained model using metrics like ROC curve, AUC score, and accuracy.
 4. **Visualization**: Visualizing the model's performance and important features using charts and plots.
-5. **Streamlit Web Application**: A Streamlit app for easy user interaction with the model and visualizations.
 
 ## Requirements
 
@@ -34,8 +32,3 @@ To run this project, you'll need to install the following dependencies:
 - `seaborn`
 - `scikit-learn`
 - `streamlit`
-
-You can install these dependencies using pip:
-
-```bash
-pip install -r requirements.txt
